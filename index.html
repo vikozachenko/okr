@@ -3,22 +3,35 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="author" content="Вікторія" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Головна</title>
+    <style>
+      a {
+        color: green;
+      }
+    </style>
+
     <title>Головна</title>
   </head>
+
   <body>
-    <h1>Сайт оголошень</h1>
-    <p>Ласкаво просимо на наш сайт оголошень!</p>
+    <h1 id="main-title">Сайт оголошень</h1>
+
+    <p class="highlight">Ласкаво просимо на наш сайт оголошень!</p>
 
     <p>
       Тут ви можете знайти оголошення про продаж, оренду або надання послуг.
     </p>
-    <p>Кожен користувач має можливість додати власне оголошення.</p>
 
-    <p>
-      <a href="ads.html">Перейти до оголошень</a>
+    <p style="color: blue;">
+      Кожен користувач має можливість додати власне оголошення.
     </p>
 
-     <p>
+    <p>
+      <a href="ads.html" id="special-link">Перейти до оголошень</a>
+    </p>
+
+    <p>
       <a href="add.html">Зробити оголошення</a>
     </p>
 
@@ -30,11 +43,9 @@
       <a href="ads.html#top">Перейти до актуальних оголошень</a>
     </p>
 
-    <p align="justify">
-      <font face="Times New Roman" size="4" color="black">
-        Наш сайт створений для <i>швидкого пошуку товарів та послуг</i>. Тут
-        кожен користувач може <b>розмістити власне оголошення</b>.
-      </font>
+    <p>
+      Наш сайт створений для <i>швидкого пошуку товарів та послуг</i>. 
+      Тут кожен користувач може <b>розмістити власне оголошення</b>.
     </p>
 
     <p>
@@ -47,63 +58,45 @@
       </a>
     </p>
 
+    <table>
+      <caption><b>Оголошення на сайті</b></caption>
 
+      <tr>
+        <th>Категорія</th>
+        <th>Опис</th>
+        <th>Посилання</th>
+        <th>Фото</th>
+      </tr>
 
+      <tr>
+        <td><img src="image/house.png" width="80" height="60"></td>
+        <td><img src="image/thanks.png" width="80" height="60"></td>
+        <td><img src="image/house.png" width="80" height="60"></td>
+        <td><img src="image/thanks.png" width="80" height="60"></td>
+      </tr>
 
-<table border="1" width="100%" cellspacing="0" cellpadding="5">
-  
-  <caption><b>Оголошення на сайті</b></caption>
+      <tr>
+        <td><a href="ads.html">Продаж</a></td>
+        <td><a href="ads.html">Оренда</a></td>
+        <td><a href="ads.html">Послуги</a></td>
+        <td><a href="ads.html">Інше</a></td>
+      </tr>
 
-  <tr bgcolor="#D3D3D3">
-    <th>Категорія</th>
-    <th>Опис</th>
-    <th>Посилання</th>
-    <th>Фото</th>
-  </tr>
+      <tr>
+        <td>Продаж товарів</td>
+        <td>Оренда нерухомості</td>
+        <td>Надання послуг</td>
+        <td>Різні оголошення</td>
+      </tr>
+    </table>
 
-  <tr align="center">
-    <td><img src="image/house.png" width="80" height="60"></td>
-    <td><img src="image/thanks.png" width="80" height="60"></td>
-    <td><img src="image/house.png" width="80" height="60"></td>
-    <td><img src="image/thanks.png" width="80" height="60"></td>
-  </tr>
+    <p><b>Плаваючий фрейм:</b></p>
 
-  <tr align="center">
-    <td><a href="ads.html">Продаж</a></td>
-    <td><a href="ads.html">Оренда</a></td>
-    <td><a href="ads.html">Послуги</a></td>
-    <td><a href="ads.html">Інше</a></td>
-  </tr>
-
-  <tr>
-    <td>Продаж товарів</td>
-    <td>Оренда нерухомості</td>
-    <td>Надання послуг</td>
-    <td>Різні оголошення</td>
-  </tr>
-
-</table>
-
-
-<p><b>Плаваючий фрейм:</b></p>
-
-<iframe 
-    src="https://www.wikipedia.org"
-    width="600"
-    height="400"
-    frameborder="1">
-</iframe>
-
-
-
-
-
-
-
-
-
-
-
+    <iframe 
+      src="https://www.wikipedia.org"
+      width="600"
+      height="400">
+    </iframe>
 
   </body>
 </html>

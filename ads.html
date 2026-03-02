@@ -3,21 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="author" content="Вікторія" />
+    <link rel="stylesheet" href="css/style.css">
     <title>Оголошення</title>
   </head>
+
   <body>
     <h1>Список оголошень</h1>
 
-    <a name="top">Актуальні оголошення</a>
+    <a id="top">Актуальні оголошення</a>
 
     <p><b>Категорії оголошень:</b></p>
-    <ul type="square">
+
+    <ul>
       <li>Продаж</li>
       <li>Оренда</li>
       <li>Послуги</li>
     </ul>
 
-    <a name="services">Послуги</a>
+    <a id="services">Послуги</a>
     <a href="#services">Перейти до послуг</a>
 
     <p>
@@ -29,47 +32,43 @@
       />
     </p>
 
+    <table>
 
-<table border="1" width="100%" cellspacing="5" cellpadding="10">
+      <colgroup>
+        <col span="1">
+        <col span="2">
+        <col span="1">
+      </colgroup>
 
-  <colgroup>
-    <col span="1" bgcolor="#E0F7FA">
-    <col span="2" bgcolor="#FFF9C4">
-    <col span="1" bgcolor="#E1BEE7">
-  </colgroup>
+      <caption><b>Структура оголошень</b></caption>
 
-  <caption><b>Структура оголошень</b></caption>
+      <tr>
+        <th>Категорія</th>
+        <th colspan="2">Інформація</th>
+        <th>Статус</th>
+      </tr>
 
-  <tr bgcolor="#BDBDBD" align="center">
-    <th>Категорія</th>
-    <th colspan="2">Інформація</th>
-    <th>Статус</th>
-  </tr>
+      <tr>
+        <td>Продаж</td>
+        <td>Товар</td>
+        <td>Ціна</td>
+        <td>Активне</td>
+      </tr>
 
-  <tr align="center">
-    <td rowspan="2">Продаж</td>
-    <td>Товар</td>
-    <td>Ціна</td>
-    <td>Активне</td>
-  </tr>
+      <tr>
+        <td>Товар</td>
+        <td>Телефон</td>
+        <td>5000 грн</td>
+        <td>Активне</td>
+      </tr>
 
-  <tr align="right">
-    <td>Телефон</td>
-    <td>5000 грн</td>
-    <td>Активне</td>
-  </tr>
+      <tr>
+        <td>Послуги</td>
+        <td colspan="2">Ремонт побутової техніки</td>
+        <td>Нове</td>
+      </tr>
 
-  <tr align="left">
-    <td>Послуги</td>
-    <td colspan="2">Ремонт побутової техніки</td>
-    <td>Нове</td>
-  </tr>
-
-</table>
-
-
-
-
+    </table>
 
   </body>
 </html>
