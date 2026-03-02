@@ -58,3 +58,22 @@ th, td {
     border: 1px solid black;
     padding: 8px;
 }
+
+/* laba 4 */
+
+/* Контекстний селектор */
+.latest-ads p {
+  color: blue;
+}
+
+/* Дочірній селектор */
+.categories > ul {
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Сусідній селектор */
+h2 + p {
+  color: red;
+  font-weight: bold;
+}
