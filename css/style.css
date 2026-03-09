@@ -20,6 +20,10 @@ h1 {
 #main-title {
     text-transform: uppercase;
 }
+.main-title {
+    text-transform: lowercase;
+}
+
 
 #special-link {
     font-weight: bold;
@@ -30,9 +34,6 @@ a {
     font-size: 18px;
 }
 
-a {
-    color: orange !important;
-}
 
 ul {
     background-color: #e3f2fd;
@@ -64,7 +65,9 @@ th, td {
 /* Контекстний селектор */
 .latest-ads p {
   color: blue;
+  position: relative;   
 }
+
 
 /* Дочірній селектор */
 .categories > ul {
@@ -76,4 +79,52 @@ th, td {
 h2 + p {
   color: red;
   font-weight: bold;
+}
+
+/* Лаба 5 */
+
+.site-name {
+    color: darkgreen;
+    font-weight: bold;
+}
+.vip-ad {
+    position: absolute;
+    float:right;
+    width:220px;
+    background:#fff3cd;
+    padding:10px;
+    border:1px solid #ccc;
+    margin:10px;
+    position: absolute;
+    right:10px;
+    top:40px;
+}
+a:link{
+    color: blue;
+}
+
+a:visited{
+    color: purple;
+}
+
+a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+a:active{
+    color: green;
+}
+table tr:first-child{
+    background-color: #d1ecf1;
+    font-weight: bold;
+}
+h2::before{
+    content:"★ ";
+    color:rgb(92, 0, 0);
+}
+
+h2::after{
+    content:" ★";
+    color:orange;
 }
